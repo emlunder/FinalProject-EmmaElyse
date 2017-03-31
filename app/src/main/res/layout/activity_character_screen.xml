@@ -13,10 +13,59 @@
     tools:context="com.example.cmltdstudent.afinal.CharacterScreen">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose a Character..."
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fish"
+            android:layout_weight="1"
+            android:id="@+id/fish_pic"
+            android:onClick="openLevelScreen" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dolphin"
+            android:layout_weight="1"
+            android:id="@+id/dolphin_pic"
+            android:onClick="openLevelScreen" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/octupus"
+            android:layout_weight="1"
+            android:id="@+id/octupus_pic"
+            android:onClick="openLevelScreen" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whale"
+            android:layout_weight="1"
+            android:id="@+id/whale_pic"
+            android:onClick="openLevelScreen" />
+
+    </LinearLayout>
 
 
 </LinearLayout>

@@ -13,11 +13,13 @@
     tools:context="com.example.cmltdstudent.afinal.ProblemTypeScreen">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose a Problem Type..."
         android:textColor="@android:color/black"
         android:textSize="40sp"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
         android:layout_weight="2"/>
 
     <Button
@@ -26,7 +28,9 @@
         android:text="Word Problems"
         android:textSize="32sp"
         android:background="@android:color/transparent"
-        android:layout_weight="2"/>
+        android:layout_weight="2"
+        android:id="@+id/wordproblems_button"
+        android:onClick="openPGScreen" />
 
     <Button
         android:layout_width="match_parent"
@@ -34,5 +38,7 @@
         android:text="Arithmetic"
         android:textSize="32sp"
         android:background="@android:color/transparent"
-        android:layout_weight="2"/>
+        android:layout_weight="2"
+        android:id="@+id/arithmetic_button"
+        android:onClick="openPGScreen" />
 </LinearLayout>
