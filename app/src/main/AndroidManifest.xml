@@ -18,7 +18,9 @@
         <activity android:name=".CharacterScreen" />
         <activity android:name=".LevelScreen" />
         <activity android:name=".ProblemTypeScreen" />
-        <activity android:name=".PreGameSummary"></activity>
+        <activity android:name=".PreGameSummary" />
+        <activity android:name=".WordProblems" />
+        <activity android:name=".Arithmetic"></activity>
     </application>
 
 </manifest>
