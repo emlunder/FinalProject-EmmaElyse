@@ -51,4 +51,14 @@
         android:id="@+id/play_button"
         android:onClick="openCharacterScreen"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@android:color/transparent"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:id="@+id/sign_up"
+        android:onClick="openSignUpScreen" />
 </LinearLayout>
