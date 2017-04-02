@@ -59,10 +59,9 @@ public class UserInfo implements Serializable {
     @Override
     public String toString() {
         return "UserInfo{" +
-                "userName='" + userName + '\'' +
-                ", level='" + level + '\'' +
-                ", problemtype='" + problemtype + '\'' +
-                ", score=" + score +
-                '}';
+                "Username: '" + userName + "\n" +
+                "Level: " + level + "\n" +
+                "Problem Type: " + problemtype + "\n" +
+                "Score: " + score;
     }
 }
