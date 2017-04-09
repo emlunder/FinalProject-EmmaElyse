@@ -20,7 +20,8 @@
         <activity android:name=".ProblemTypeScreen" />
         <activity android:name=".PreGameSummary" />
         <activity android:name=".WordProblems" />
-        <activity android:name=".Arithmetic"></activity>
+        <activity android:name=".Arithmetic" />
+        <activity android:name=".SignUp"></activity>
     </application>
 
 </manifest>
