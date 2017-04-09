@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "440943522970",
+    "firebase_url": "https://finalproject-emmaelyse.firebaseio.com",
+    "project_id": "finalproject-emmaelyse",
+    "storage_bucket": "finalproject-emmaelyse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440943522970:android:e731ff9855facef6",
+        "android_client_info": {
+          "package_name": "com.example.cmltdstudent.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440943522970-ue4vdcdfvu393q79t05pkrlnq3hio5r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChQhgL7AH3Jo6DfBO3Lr94qqoQOgahUqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
