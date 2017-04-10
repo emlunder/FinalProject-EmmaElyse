@@ -50,11 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void openCharacterScreen (View view)
-    {
-        Intent i = new Intent(this, CharacterScreen.class);
-        startActivity(i);
-    }
 
     public void onChildChanged(DataSnapshot dataSnapshot, String s) {
         Toast.makeText(MainActivity.this, dataSnapshot.getValue(MainActivity.class) + " has changed", Toast.LENGTH_SHORT).show();
@@ -93,5 +88,16 @@ public class MainActivity extends AppCompatActivity {
     public void signOut(View view) {
         auth.signOut();
 
+    }
+
+
+    public void openSignUpScreen(View view) {
+        Intent i = new Intent(this, SignUp.class);
+        startActivity(i);
+    }
+
+    public void openCharacterScreen(View view) {
+        Intent i = new Intent(this, CharacterScreen.class);
+        startActivity(i);
     }
 }
