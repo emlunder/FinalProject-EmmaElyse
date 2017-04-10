@@ -64,4 +64,7 @@ public class UserInfo implements Serializable {
                 "Problem Type: " + problemtype + "\n" +
                 "Score: " + score;
     }
+
+    public static void add(UserInfo value) {
+    }
 }
